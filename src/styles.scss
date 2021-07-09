@@ -1,0 +1,26 @@
+/* Application-wide Styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h1 {
+  color: #369;
+  font-size: 250%;
+}
+h2,
+h3 {
+  color: #444;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+}
+body,
+input[type="text"],
+button {
+  color: #333;
+}
+/* everywhere else */
+* {
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
